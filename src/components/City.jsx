@@ -1,10 +1,8 @@
 import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import styles from "./City.module.css";
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Spinner from "./Spinner";
-
-import { useNavigate } from "react-router-dom";
 import BackButton from "./BackButton";
 
 const formatDate = (date) =>
@@ -16,7 +14,6 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
-  const navigate = useNavigate();
   const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
 
