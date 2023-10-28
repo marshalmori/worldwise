@@ -71,30 +71,6 @@
         "lng": "-45.615234375"
       },
       "id": 98443295
-    },
-    {
-      "cityName": "Paris",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-10-27T02:01:57.843Z",
-      "notes": "dfdfdfdf",
-      "position": {
-        "lat": "48.84664340683584",
-        "lng": "2.3648071289062504"
-      },
-      "id": 98443296
-    },
-    {
-      "cityName": "Coeur de Causse",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-10-27T02:04:21.783Z",
-      "notes": "kkkkkk",
-      "position": {
-        "lat": "44.62175409623327",
-        "lng": "1.5380859375000002"
-      },
-      "id": 98443297
     }
   ]
 }
